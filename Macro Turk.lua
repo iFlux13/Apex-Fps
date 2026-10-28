@@ -91,4 +91,8 @@ task.spawn(function()
         end
       end
 
+print("Working)
+        --initial respawn
+        setup(character)
+        Players.LocalPlayers.CharacterAdded:Connect(setup)
     
